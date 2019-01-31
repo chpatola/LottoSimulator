@@ -195,7 +195,7 @@ public class LottoSimulator extends Application {
             diffNum.clear();
             //Check that input are integers
             } catch (NumberFormatException el) {
-                result.setText("\nCould not give action, input was not an integer!");
+                result.setText("\nCould not give action, input was not 7 integers!");
                  rightLottoNumbers.clear();
                  diffNum.clear();
             }
